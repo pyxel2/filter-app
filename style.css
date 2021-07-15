@@ -1,0 +1,66 @@
+body{
+    font-size: 28px;
+    font-family: brightness;
+} 
+
+#bt1:hover{
+    background-color: aqua;
+color:red;
+}
+
+canvas{
+    animation-name:wow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes wow 
+{
+    from{box-shadow: 1px 1px 28px aqua;}
+    to{box-shadow: 1px 1px 28px yellow;}
+}
+
+#bt1 {
+    animation-name: aaga;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aaga {
+    from{box-shadow: 1px 1px 28px yellow;}
+    to{box-shadow: 1px 1px 28px aqua;}
+}
+
+
+#bt2:hover{
+    background-color: aqua;
+color:red;
+}
+
+#bt3:hover{
+    background-color: aqua;
+color:red;
+
+}
+#bt2 {
+    animation-name: aaga2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aaga2 {
+    from{box-shadow: 1px 1px 28px yellow;}
+    to{box-shadow: 1px 1px 28px aqua;}
+}
+
+#bt3 {
+    animation-name: aaga2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aaga3 {
+    from{box-shadow: 1px 1px 28px yellow;}
+    to{box-shadow: 1px 1px 28px aqua;}
+}
